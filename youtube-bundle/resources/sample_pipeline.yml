@@ -11,7 +11,7 @@ resources:
               schema: ${var.schema_name}
             source: WORKSPACE
       queue:
-        enabled: true
+        enabled: false
       performance_target: PERFORMANCE_OPTIMIZED
 
 
