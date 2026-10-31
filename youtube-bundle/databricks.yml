@@ -24,6 +24,7 @@ targets:
     default: true
     workspace:
       host: https://dbc-1ecc2d01-e312.cloud.databricks.com
+      root_path: /Users/ssagarprajapati@gmail.com/demo-yt
     variables:
       catalog_name: 'agent'
       schema_name: 'bronze'
