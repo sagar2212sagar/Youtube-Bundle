@@ -1,0 +1,23 @@
+resources:
+  jobs:
+    Sample_Job:
+      name: Sample Job
+      tasks:
+        - task_key: Sample_Job
+          notebook_task:
+            notebook_path: ../src/notebooks/Sample.ipynb
+            base_parameters:
+              catalog: ${var.catalog_name}
+              schema: ${var.schema_name}
+            source: WORKSPACE
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
+
+
+
+
+
+
+
+
